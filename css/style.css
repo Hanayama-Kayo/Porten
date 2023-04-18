@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-family: 'PT Sans', sans-serif;
+}
+.header-nav{
+    width: 100%;
+    height: 44px;
+    background-color: #000000;
+}
+.container{
+    max-width: 1140px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+li{
+    list-style-type: none;
+}
+.header-nav-left ul{
+    display: flex;
+}
+.header-nav-right ul{
+    display: flex;
+}
+.header-nav-left ul li{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: 16px;
+    color: #969696;
+}
+.header-nav-right ul li{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: right;
+    margin-left: 14px;
+    color: #969696;
+}
+.header-nav-flex{
+    display: flex;
+    justify-content: space-between;
+    transform: translate(0%,50%);
+    padding: 0px 20px 0px 20px;
+}
+.header{
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+    max-width: 1140px;
+    width: 100%;
+    height: 80px;
+    background-color: #0F0F0F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0px 20px 0px 20px;
+}
+.navbar-right ul{
+    display: flex;
+}
+.navbar-right ul li{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #969696;
+    margin-right: 40px;
+}
+
+.header-nav-1{
+    width: 100%;
+    height: 80px;
+    background-color: #0F0F0F;
+}
+.menu{
+    color: black;
+    display: none;
+}
+.content-1{
+    width:100%;
+    height: 810px;
+    background: url(../images/bg.png) no-repeat center center;
+    display: inline-block;
+    text-align: center;
+}
+.content-1-box{
+    max-width: 320px;
+    width: 100%;
+    max-height: 320px;
+    height: 100%;
+    border: 4px solid white;
+    margin: 160px auto;
+    text-align: center ;
+}
+.content-1-box img{
+    margin-top: 93px;
+    border-bottom: 1px solid white;
+    padding-bottom: 15px;
+}
+.content-1-box h2{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.content-1 p{
+    max-width: 730px;
+    width: 100%;
+    max-height: 96px;
+    height: 100%;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: -50px auto;
+}
+.content-2{ 
+    max-width: 1920px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+.content-2-left{
+    max-width: 960px;
+    width: 100%;
+    height: 730px;
+    background-color: #000000;
+    text-align: center;
+}
+.content-2-right{
+    max-width: 960px;
+    width: 100%;
+    height: 730px;
+    text-align: center;
+}
+.content-2-left h1{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 93px;
+}
+.content-2-left .line{
+    width: 110px;
+    height: 1px;
+    background-color: #BFBFBF;
+    margin: 50px auto;
+}
+.row-card{
+    max-width: 816px;
+    width: 100%;
+    height: 426px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    width: 240px;
+    height: 100%;
+}
+.card-image{
+    max-width: 240px;
+    width: 100%;
+    height: 325px;
+    background-color: #191B1C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card h3{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    width: 129px;
+    color: #FFFFFF;
+}
+.card-text{
+    margin-top: 25px;
+}
+.content-2-right{
+    background: url(../images/Rectangle\ 8.png) no-repeat center center;
+    text-align: center;
+}
+.content-2-right h1{
+    font-style: normal;
+    font-family: 'Playfair Display';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 484px;
+}
+.content-2-right .line{
+    width: 110px;
+    height: 1px;
+    background-color: #BFBFBF;
+    margin: 50px auto;
+}
+.content-2-right button{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 12px 28px;
+}
+.content-3{
+    max-width: 1920px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+.content-3-left{
+    max-width: 952px;
+    width: 100%;
+    height: 600px;
+    background: url(../images/Rectangle\ 9.png) no-repeat center center     ;
+}
+.content-3-right{
+    max-width: 960px;
+    width: 100%;
+    height: 600px;
+    background-color: #000000;
+    text-align: center;
+}
+.content-3-right h1{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 100px;
+    color: #FFFFFF;
+}
+.content-3-right .line{
+    width: 110px;
+    height: 1px;
+    background-color: #BFBFBF;
+    margin: 50px auto;
+}
+.content-3-right p{
+    max-width: 471px;
+    width: 100%;
+    height: 173px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+    margin: auto;
+}
+.content-3-right button{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 1px solid white;
+   
+    padding: 12px 28px;
+    color: #FFFFFF;
+    margin: 61px auto;
+}
+.content-4{
+    max-width: 1920px;
+    width: 100%;
+    background-color: #000000;
+    text-align: center;
+    height: 100%;
+    margin: auto    ;
+}
+.content-4 h1{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 120px;
+    display: inline-block;
+    color: #FFFFFF;
+}
+.content-4 .line{   
+    width: 110px;
+    height: 1px;
+    background-color: #BFBFBF;
+    margin: 50px auto;
+}
+.rows-cards{
+    max-width: 1109px;
+    width: 100%;
+    height: 892px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap ;
+}
+.cards-image{
+    max-width: 260px;
+    width: 100%;
+    height: 325px;
+    background-color: #191B1C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    max-width: 260px;
+    width: 100%;
+    height: 426px;
+}
+.cards h3{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    width: 129px;
+    color: #FFFFFF;
+}
+.footer{
+    max-width: 1920px;
+    width: 100%;
+    background-color: #0F0F0F;
+    height: 100%;
+    text-align: center  ;
+    margin: auto    ;
+}
+.footer h1{
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 60px;
+    display: inline-block;
+}
+.footer .line{
+    width: 110px;
+    height: 1px;
+    background-color: #BFBFBF;
+    margin: 50px auto;
+}
+.footer .invester{
+    max-width: 1110px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
